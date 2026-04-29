@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
 <header>
-    <h1>My Website</h1>
+    <h1>Minun nettisivut</h1>
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
@@ -17,6 +17,14 @@
         </ul>
     </nav>
 </header>
+<nav class="responsive-nav">
+    <button class="menu-toggle">☰ Menu</button>
+    <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
 <main>
     <section id="about">
@@ -33,6 +41,9 @@
         <h2>Palvelut</h2>
         <p>Tässä ovat minun palveluni.</p>
     </section>
+    <div class="media-query-box">
+    Resize the window to see the effect
+</div>
 </main>
 <div class="grid-container">
   <div class="grid-item">Web design</div>
@@ -55,5 +66,28 @@
 </footer>
 
 </body>
+<div class="responsive-container">
+    <div class="column">
+        <h2>Otsikko 1</h2>
+        <img src="images/omakuva.jpg" alt="Oma kuva" class="responsive-image">
+    </div>
+    <div class="column">
+        <h2>Otsikko 2</h2>
+        
+    </div>
+</div>
 </html>
 <link rel="stylesheet" href="styles/styles.css">
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+
+</body>
+</html>
